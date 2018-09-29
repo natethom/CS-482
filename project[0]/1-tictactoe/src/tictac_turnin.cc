@@ -1,5 +1,8 @@
 #include <tictac_support.h>
 #include <stdio.h>
+#include <iostream>
+
+using namespace std;
 /**
 	make_move: takes a board current_player and makes a legal
 	(hopefully optimal) move
@@ -20,7 +23,7 @@
 #define NUM_ROWS 3
 #define NUM_COLUMNS 3
 
-bool check_whose_turn(int board[][NUM_COLUMNS]){
+int check_whose_turn(int board[][NUM_COLUMNS]){
 	// figure out what move it is
 	int current_player = 0;
 	for( int i = 0; i < 3; i++ )
@@ -34,27 +37,125 @@ bool check_whose_turn(int board[][NUM_COLUMNS]){
 	return current_player;
 }
 
-bool check_for_win(board, current_player){
+bool check_for_win(int board[][NUM_COLUMNS], int current_player){
+	if(board[0][0]+board[0][1] == 2 && board[0][2] != -1 && current_player == 1){
+		board[0][2] = current_player;
+		return true;
+	}
+	else if(board[0][0]+board[0][1] == -2 && board[0][2] != 1 && current_player == -1){
+		board[0][2] = current_player;
+		return true;
+	}
 
+	else if(board[0][0]+board[1][1] == 2 && board[2][2] != -1 && current_player == 1){
+		board[2][2] = current_player;
+		return true;
+	}
+	else if(board[0][0]+board[1][1] == -2 && board[2][2] != 1 && current_player == -1){
+		board[2][2] = current_player;
+		return true;
+	}
+
+	else if(board[0][0]+board[1][0] == 2 && board[2][0] != -1 && current_player == 1){
+		board[2][0] = current_player;
+		return true;
+	}
+	else if(board[0][0]+board[1][0] == -2 && board[2][0] != 1 && current_player == -1){
+		board[2][0] = current_player;
+		return true;
+	}
+
+	else if(board[0][1]+board[1][1] == 2 && board[2][1] != -1 && current_player == 1){
+		board[2][1] = current_player;
+		return true;
+	}
+	else if(board[0][1]+board[1][1] == -2 && board[2][1] != 1 && current_player == -1){
+		board[2][1] = current_player;
+		return true;
+	}
+
+	else if(board[0][2]+board[1][2] == 2 && board[2][2] != -1 && current_player == 1){
+		board[2][2] = current_player;
+		return true;
+	}
+	else if(board[0][2]+board[1][2] == -2 && board[2][2] != 1 && current_player == -1){
+		board[2][2] = current_player;
+		return true;
+	}
+
+	else if(board[0][2]+board[1][1] == 2 && board[2][0] != -1 && current_player == 1){
+		board[2][0] = current_player;
+		return true;
+	}
+	else if(board[0][2]+board[1][1] == -2 && board[2][0] != 1 && current_player == -1){
+		board[2][0] = current_player;
+		return true;
+	}
+
+	else if(board[1][0]+board[1][1] == 2 && board[1][2] != -1 && current_player == 1){
+		board[1][2] = current_player;
+		return true;
+	}
+	else if(board[1][0]+board[1][1] == -2 && board[1][2] != 1 && current_player == -1){
+		board[1][2] = current_player;
+		return true;
+	}
+
+	else if(board[2][0]+board[2][1] == 2 && board[2][2] != -1 && current_player == 1){
+		board[2][2] = current_player;
+		return true;
+	}
+	else if(board[2][0]+board[2][1] == -2 && board[2][2] != 1 && current_player == -1){
+		board[2][2] = current_player;
+		return true;
+	}
+
+	else{
+		return false;
+	}
 }
+
+
 
 
 int make_move( int board[][3] )
 {
 	int current_player = check_whose_turn(board);
+	cout << current_player << endl;
 
-	// default behavior: find any unoccupied square and make the move
-	for( int i = 0; i < 3; i++ )
-		for( int j = 0; j < 3; j++ )
-			// find an empty square
-			if( board[i][j] == 0 )
-			{
-				// that's the move
-				printf( "player [%d] made move: [%d,%d]\n", current_player, i, j );
-				board[i][j] = current_player;
-				return 1;
+	if(check_for_win(board, current_player) == true){
+		return true;
+	}
+	else{
+		for(int i = 0; i < 3; i++ ){
+			for(int j = 0; j < 3; j++ ){
+				if(board[i][j] == 0){
+					int temp_board[3][3]
+					cout << board << endl << endl;
+					cout << temp_board << endl << endl;
+
+				}
 			}
-
-	// no move was made (board was full)
-	return 0;
+	}
 }
+
+
+
+
+
+
+// 	// default behavior: find any unoccupied square and make the move
+// 	for( int i = 0; i < 3; i++ )
+// 		for( int j = 0; j < 3; j++ )
+// 			// find an empty square
+// 			if( board[i][j] == 0 )
+// 			{
+// 				// that's the move
+// 				printf( "player [%d] made move: [%d,%d]\n", current_player, i, j );
+// 				board[i][j] = current_player;
+// 				return 1;
+// 			}
+//
+// 	// no move was made (board was full)
+// 	return 0;
+// }
