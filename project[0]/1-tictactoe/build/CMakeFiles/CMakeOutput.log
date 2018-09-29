@@ -36,58 +36,58 @@ The output was:
 
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bf05e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bf05e.dir/build.make CMakeFiles/cmTC_bf05e.dir/build
-make[1]: Entering directory '/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bf05e.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_bf05e.dir/testCCompiler.c.o   -c /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_bf05e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf05e.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_bf05e.dir/testCCompiler.c.o  -o cmTC_bf05e  
-make[1]: Leaving directory '/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0c6f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c6f0.dir/build.make CMakeFiles/cmTC_0c6f0.dir/build
+make[1]: Entering directory '/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c6f0.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_0c6f0.dir/testCCompiler.c.o   -c /home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0c6f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c6f0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0c6f0.dir/testCCompiler.c.o  -o cmTC_0c6f0  
+make[1]: Leaving directory '/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_437a0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_437a0.dir/build.make CMakeFiles/cmTC_437a0.dir/build
-make[1]: Entering directory '/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_437a0.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_437a0.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_437a0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_437a0.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_437a0.dir/CMakeCCompilerABI.c.o  -o cmTC_437a0   
-make[1]: Leaving directory '/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_967ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_967ae.dir/build.make CMakeFiles/cmTC_967ae.dir/build
+make[1]: Entering directory '/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_967ae.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_967ae.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_967ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_967ae.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_967ae.dir/CMakeCCompilerABI.c.o  -o cmTC_967ae   
+make[1]: Leaving directory '/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eb574/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eb574.dir/build.make CMakeFiles/cmTC_eb574.dir/build
-make[1]: Entering directory '/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_eb574.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_eb574.dir/testCXXCompiler.cxx.o -c /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_eb574
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb574.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_eb574.dir/testCXXCompiler.cxx.o  -o cmTC_eb574  
-make[1]: Leaving directory '/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_22b56/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22b56.dir/build.make CMakeFiles/cmTC_22b56.dir/build
+make[1]: Entering directory '/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_22b56.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_22b56.dir/testCXXCompiler.cxx.o -c /home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_22b56
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22b56.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_22b56.dir/testCXXCompiler.cxx.o  -o cmTC_22b56  
+make[1]: Leaving directory '/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4bacd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4bacd.dir/build.make CMakeFiles/cmTC_4bacd.dir/build
-make[1]: Entering directory '/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4bacd.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_4bacd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_4bacd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bacd.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_4bacd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4bacd   
-make[1]: Leaving directory '/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c2715/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2715.dir/build.make CMakeFiles/cmTC_c2715.dir/build
+make[1]: Entering directory '/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c2715.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_c2715.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c2715
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2715.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_c2715.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c2715   
+make[1]: Leaving directory '/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/CMakeTmp'
 
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nthom/Documents/CS-482/project[0]/1-tictactoe
+CMAKE_SOURCE_DIR = /home/nate/Documents/CS-482/project[0]/1-tictactoe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build
+CMAKE_BINARY_DIR = /home/nate/Documents/CS-482/project[0]/1-tictactoe/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles /home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

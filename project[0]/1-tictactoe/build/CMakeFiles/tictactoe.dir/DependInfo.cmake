@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nthom/Documents/CS-482/project[0]/1-tictactoe/src/tictac.cc" "/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/tictactoe.dir/src/tictac.cc.o"
-  "/home/nthom/Documents/CS-482/project[0]/1-tictactoe/src/tictac_support.cc" "/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/tictactoe.dir/src/tictac_support.cc.o"
-  "/home/nthom/Documents/CS-482/project[0]/1-tictactoe/src/tictac_turnin.cc" "/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/tictactoe.dir/src/tictac_turnin.cc.o"
+  "/home/nate/Documents/CS-482/project[0]/1-tictactoe/src/tictac.cc" "/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/tictactoe.dir/src/tictac.cc.o"
+  "/home/nate/Documents/CS-482/project[0]/1-tictactoe/src/tictac_support.cc" "/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/tictactoe.dir/src/tictac_support.cc.o"
+  "/home/nate/Documents/CS-482/project[0]/1-tictactoe/src/tictac_turnin.cc" "/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/tictactoe.dir/src/tictac_turnin.cc.o"
   )
 
 # The include file search paths:

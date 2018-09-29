@@ -1,4 +1,4 @@
-# Install script for directory: /home/nthom/Documents/CS-482/project[0]/1-tictactoe
+# Install script for directory: /home/nate/Documents/CS-482/project[0]/1-tictactoe
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

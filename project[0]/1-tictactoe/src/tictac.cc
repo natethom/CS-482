@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <tictac_support.h>
+#include <iostream>
+
+using namespace std;
 
 int main( int argc, char* argv[] )
 {
@@ -11,7 +14,7 @@ int main( int argc, char* argv[] )
 
 	// make move
 	make_move( board );
-	
+
 	// save board state
 	save_board( argv[2], board );
 

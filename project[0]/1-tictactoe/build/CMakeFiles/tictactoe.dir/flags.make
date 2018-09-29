@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nthom/Documents/CS-482/project[0]/1-tictactoe/include 
+CXX_INCLUDES = -I/home/nate/Documents/CS-482/project[0]/1-tictactoe/include 
 

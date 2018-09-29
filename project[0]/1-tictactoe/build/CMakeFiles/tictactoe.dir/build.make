@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nthom/Documents/CS-482/project[0]/1-tictactoe
+CMAKE_SOURCE_DIR = /home/nate/Documents/CS-482/project[0]/1-tictactoe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build
+CMAKE_BINARY_DIR = /home/nate/Documents/CS-482/project[0]/1-tictactoe/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tictactoe.dir/depend.make
@@ -59,8 +59,8 @@ include CMakeFiles/tictactoe.dir/flags.make
 
 CMakeFiles/tictactoe.dir/src/tictac.cc.o: CMakeFiles/tictactoe.dir/flags.make
 CMakeFiles/tictactoe.dir/src/tictac.cc.o: ../src/tictac.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tictactoe.dir/src/tictac.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tictactoe.dir/src/tictac.cc.o -c /home/nthom/Documents/CS-482/project[0]/1-tictactoe/src/tictac.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tictactoe.dir/src/tictac.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tictactoe.dir/src/tictac.cc.o -c /home/nate/Documents/CS-482/project[0]/1-tictactoe/src/tictac.cc
 
 CMakeFiles/tictactoe.dir/src/tictac.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tictactoe.dir/src/tictac.cc.i"
@@ -83,8 +83,8 @@ CMakeFiles/tictactoe.dir/src/tictac.cc.o.provides.build: CMakeFiles/tictactoe.di
 
 CMakeFiles/tictactoe.dir/src/tictac_support.cc.o: CMakeFiles/tictactoe.dir/flags.make
 CMakeFiles/tictactoe.dir/src/tictac_support.cc.o: ../src/tictac_support.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tictactoe.dir/src/tictac_support.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tictactoe.dir/src/tictac_support.cc.o -c /home/nthom/Documents/CS-482/project[0]/1-tictactoe/src/tictac_support.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tictactoe.dir/src/tictac_support.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tictactoe.dir/src/tictac_support.cc.o -c /home/nate/Documents/CS-482/project[0]/1-tictactoe/src/tictac_support.cc
 
 CMakeFiles/tictactoe.dir/src/tictac_support.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tictactoe.dir/src/tictac_support.cc.i"
@@ -107,8 +107,8 @@ CMakeFiles/tictactoe.dir/src/tictac_support.cc.o.provides.build: CMakeFiles/tict
 
 CMakeFiles/tictactoe.dir/src/tictac_turnin.cc.o: CMakeFiles/tictactoe.dir/flags.make
 CMakeFiles/tictactoe.dir/src/tictac_turnin.cc.o: ../src/tictac_turnin.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tictactoe.dir/src/tictac_turnin.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tictactoe.dir/src/tictac_turnin.cc.o -c /home/nthom/Documents/CS-482/project[0]/1-tictactoe/src/tictac_turnin.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tictactoe.dir/src/tictac_turnin.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tictactoe.dir/src/tictac_turnin.cc.o -c /home/nate/Documents/CS-482/project[0]/1-tictactoe/src/tictac_turnin.cc
 
 CMakeFiles/tictactoe.dir/src/tictac_turnin.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tictactoe.dir/src/tictac_turnin.cc.i"
@@ -143,7 +143,7 @@ tictactoe: CMakeFiles/tictactoe.dir/src/tictac_support.cc.o
 tictactoe: CMakeFiles/tictactoe.dir/src/tictac_turnin.cc.o
 tictactoe: CMakeFiles/tictactoe.dir/build.make
 tictactoe: CMakeFiles/tictactoe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable tictactoe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable tictactoe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tictactoe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +162,6 @@ CMakeFiles/tictactoe.dir/clean:
 .PHONY : CMakeFiles/tictactoe.dir/clean
 
 CMakeFiles/tictactoe.dir/depend:
-	cd /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nthom/Documents/CS-482/project[0]/1-tictactoe /home/nthom/Documents/CS-482/project[0]/1-tictactoe /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build /home/nthom/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/tictactoe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nate/Documents/CS-482/project[0]/1-tictactoe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nate/Documents/CS-482/project[0]/1-tictactoe /home/nate/Documents/CS-482/project[0]/1-tictactoe /home/nate/Documents/CS-482/project[0]/1-tictactoe/build /home/nate/Documents/CS-482/project[0]/1-tictactoe/build /home/nate/Documents/CS-482/project[0]/1-tictactoe/build/CMakeFiles/tictactoe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tictactoe.dir/depend
 
