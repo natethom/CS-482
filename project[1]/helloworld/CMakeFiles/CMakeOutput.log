@@ -1,0 +1,93 @@
+The system is: Linux - 4.15.0-36-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -c
+
+The output was:
+0
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: -c
+
+The output was:
+0
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_578f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_578f8.dir/build.make CMakeFiles/cmTC_578f8.dir/build
+make[1]: Entering directory '/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_578f8.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_578f8.dir/testCCompiler.c.o   -c /home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_578f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_578f8.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_578f8.dir/testCCompiler.c.o  -o cmTC_578f8  
+make[1]: Leaving directory '/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2fc13/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2fc13.dir/build.make CMakeFiles/cmTC_2fc13.dir/build
+make[1]: Entering directory '/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fc13.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_2fc13.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2fc13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fc13.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_2fc13.dir/CMakeCCompilerABI.c.o  -o cmTC_2fc13   
+make[1]: Leaving directory '/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef5b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef5b1.dir/build.make CMakeFiles/cmTC_ef5b1.dir/build
+make[1]: Entering directory '/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ef5b1.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_ef5b1.dir/testCXXCompiler.cxx.o -c /home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ef5b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef5b1.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ef5b1.dir/testCXXCompiler.cxx.o  -o cmTC_ef5b1  
+make[1]: Leaving directory '/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcf88/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dcf88.dir/build.make CMakeFiles/cmTC_dcf88.dir/build
+make[1]: Entering directory '/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dcf88.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_dcf88.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_dcf88
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcf88.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_dcf88.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dcf88   
+make[1]: Leaving directory '/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/CMakeTmp'
+
+

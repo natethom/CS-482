@@ -1,0 +1,93 @@
+The system is: Linux - 4.15.0-36-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -c
+
+The output was:
+0
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: -c
+
+The output was:
+0
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4681/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4681.dir/build.make CMakeFiles/cmTC_b4681.dir/build
+make[1]: Entering directory '/home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4681.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b4681.dir/testCCompiler.c.o   -c /home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b4681
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4681.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b4681.dir/testCCompiler.c.o  -o cmTC_b4681 
+make[1]: Leaving directory '/home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d7ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d7ad.dir/build.make CMakeFiles/cmTC_2d7ad.dir/build
+make[1]: Entering directory '/home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d7ad.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_2d7ad.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2d7ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d7ad.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_2d7ad.dir/CMakeCCompilerABI.c.o  -o cmTC_2d7ad  
+make[1]: Leaving directory '/home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7b0d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7b0d.dir/build.make CMakeFiles/cmTC_c7b0d.dir/build
+make[1]: Entering directory '/home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c7b0d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_c7b0d.dir/testCXXCompiler.cxx.o -c /home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_c7b0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7b0d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_c7b0d.dir/testCXXCompiler.cxx.o  -o cmTC_c7b0d 
+make[1]: Leaving directory '/home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae81f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae81f.dir/build.make CMakeFiles/cmTC_ae81f.dir/build
+make[1]: Entering directory '/home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ae81f.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_ae81f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_ae81f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae81f.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ae81f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ae81f  
+make[1]: Leaving directory '/home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/CMakeTmp'
+
+

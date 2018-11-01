@@ -1,0 +1,3 @@
+/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/edit_cache.dir
+/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/rebuild_cache.dir
+/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/hello.dir

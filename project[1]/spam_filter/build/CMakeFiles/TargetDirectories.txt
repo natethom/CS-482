@@ -1,0 +1,4 @@
+/home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/edit_cache.dir
+/home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/classify.dir
+/home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/rebuild_cache.dir
+/home/nate/Documents/CS-482/project[1]/spam_filter/build/CMakeFiles/training.dir

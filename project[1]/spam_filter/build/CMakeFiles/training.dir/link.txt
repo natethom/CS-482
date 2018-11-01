@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/training.dir/src/spam_train.cpp.o  -o training 

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nate/Documents/CS-482/project[1]/spam_filter/src/spam_train.cpp
+stdio.h
+-
+iostream
+-
+fstream
+-
+string
+-
+regex
+-
+unordered_map
+-
+locale
+-
+

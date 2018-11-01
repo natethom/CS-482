@@ -1,0 +1,24 @@
+Compilation of the C compiler identification source "CMakeCCompilerId.c" did not produce an executable in "/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/3.5.1/CompilerIdC".
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" did not produce an executable in "/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/3.5.1/CompilerIdC".
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -Aa
+
+The output was:
+1
+<command-line>:0:1: error: missing '(' after predicate
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: fatal error: no input files
+compilation terminated.
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" did not produce an executable in "/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/3.5.1/CompilerIdCXX".
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" did not produce an executable in "/home/nate/Documents/CS-482/project[1]/helloworld/CMakeFiles/3.5.1/CompilerIdCXX".
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++: fatal error: no input files
+compilation terminated.
