@@ -19,52 +19,43 @@ from gym import wrappers, logger
 ################################################
 
 
-def discretize_state( x, xdot, theta, thetadot ):
-    one_degree = 0.0174532
-    six_degrees = 0.1047192
-    twelve_degrees = 0.2094384
-    fifty_degrees = 0.87266
-
+def discretize_state( x, xdot):
     box = 0
-    if x < -2.4 or x > 2.4 or theta < -twelve_degrees or theta > twelve_degrees:
+    if x < -1.2 or x > .6:
         return -1
 
-    if x < -0.08:
+    if x < -0.9:
         box = 0
-    elif x < 0.08:
+    elif x < -0.7:
         box = 1
-    else:
+    elif x < -0.5:
         box = 2
+    elif x < -0.3:
+        box = 3
+    elif x < -0.1:
+        box = 4
+    elif x < 0.1:
+        box = 5
+    elif x < 0.2:
+        box = 6
+    elif x < 0.5:
+        box = 7
+    else:
+        box = 8
 
-    box *= 3
-    if xdot < -0.5:
-        box += 0
-    elif xdot < 0.5:
+    box *= 9
+    if xdot < -0.05:
+        box +=0
+    elif xdot < -0.025:
         box +=1
-    else:
+    elif xdot < 0:
         box +=2
-
-    box *= 6
-    if theta < -six_degrees:
-        box += 0
-    if theta < -one_degree:
-        box += 1
-    elif theta < 0:
-        box += 2
-    elif theta < one_degree:
-        box += 3
-    elif theta < six_degrees:
-        box += 4
+    elif xdot < 0.025:
+        box +=3
+    elif xdot < 0.05:
+        box +=4
     else:
-        box += 5
-
-    box *= 3
-    if thetadot < -fifty_degrees:
-        box += 0
-    elif thetadot < fifty_degrees:
-        box += 1
-    else:
-        box += 2
+        box +=5
 
     return box
 
@@ -75,7 +66,7 @@ if __name__ == '__main__':
     # CS482: This is the line you'll have to
     # change to switch to the mountain car task
     ############################################
-    parser.add_argument('env_id', nargs='?', default='CartPole-v0', help='Select the environment to run')
+    parser.add_argument('env_id', nargs='?', default='MountainCar-v0', help='Select the environment to run')
     args = parser.parse_args()
 
     logger = logging.getLogger()
@@ -101,7 +92,7 @@ if __name__ == '__main__':
     ############################################
 
 
-    Q = np.zeros([162, env.action_space.n])
+    Q = np.zeros([86, env.action_space.n])
 
     ############################################
     # CS482: Here are some of the RL parameters
@@ -109,16 +100,15 @@ if __name__ == '__main__':
     # (alpha) and the discount factor (gamma)
     ############################################
 
-    alpha = 0.85
-    gamma = 0.8
-
+    alpha = 0.35
+    gamma = 0.9
     n_episodes = 50001
     for episode in range(n_episodes):
         tick = 0
         reward = 0
         done = False
         state = env.reset()
-        s = discretize_state(state[0], state[1], state[2], state[3])
+        s = discretize_state(state[0], state[1])
         while done != True:
             tick += 1
             action = 0
@@ -128,7 +118,7 @@ if __name__ == '__main__':
                     action = q
                     ri = Q[s][q]
             state, reward, done, info = env.step(action)
-            sprime = discretize_state(state[0], state[1], state[2], state[3])
+            sprime = discretize_state(state[0], state[1])
             predicted_value = np.max(Q[sprime])
             if sprime < 0:
                 predicted_value = 0
@@ -148,7 +138,7 @@ if __name__ == '__main__':
         # car task
         ############################################
 
-        if tick < 199:
+        if tick >= 200:
             print "fail ", tick
         else:
             print "success"
